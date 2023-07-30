@@ -10,7 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #37a9dd;
+    background: #1cbccaab;
     color: #fff;
 }
 
@@ -58,8 +58,11 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
+}
+.italo {
+    font-style: italic;
 }
 nav ul li a::after{
     content: '';
@@ -92,7 +95,7 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #ffffff;
-    background: #37a9dd;
+    background: #144349ce;
 }
 .row{
     display: flex;
@@ -169,7 +172,7 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .services-list div{
-    background: #262626;
+    background: #144349ce;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -261,7 +264,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #144349ce;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -283,7 +286,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #144349ce;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -304,7 +307,7 @@ nav ul li a:hover::after{
 }
 .btn.btn2{
     display: inline-block;
-    background:#ff004f;
+    background:#144349ce;
 }
 .contact-right form{
     width: 100%;
@@ -312,8 +315,8 @@ nav ul li a:hover::after{
 form input, form textarea{
     width: 100%;
     border: 0;
-    outline: none;
-    background: #262626;
+    outline: 2px solid #144349ce;
+    background: transparent;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
@@ -335,7 +338,7 @@ form .btn2{
     margin-top: 20px;
 }
 .copyright i{
-    color: #ff004f;
+    color:#144349ce;
 }
 /* -----------css for small screens------------- */
 nav .fas{
@@ -407,4 +410,3 @@ nav .fas{
         font-size: 14px;
     }
 }
-
